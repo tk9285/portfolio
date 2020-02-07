@@ -6,16 +6,16 @@ import Tom from '../components/images/TomPic.jpg';
 class Contact extends Component {
   render() {
     return(
-      <div className="contact-body">
+      <div className="contact-body" >
         <Grid className="contact-grid">
-          <Cell col={6} style={{height: '1000vh'}}>
+          <Cell col={6}>
             <h2>Thomas Kang</h2>
             <img
               src={Tom}
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Former project manager turned software engineer with a skill set in full-stack coding for web development. Passionate about helping businesses succeed through growing and optimizing their online presence. I look forward to opportunities that will leverage my skills as a software developer. DoD Secret level security clearance.</p>
+             <p style={{ width: '95%', margin: 'auto', paddingTop: '1em'}}>Former project manager turned software engineer with a skill set in full-stack coding for web development. Passionate about technology which is demonstrated through my 9 years of IT project management experience and my continued motivation to understand all aspects of technology from hardware to programing. Now as a software engineer, I’m bringing my problem solving, process-oriented approach, and attention to detail experience to my new career. Looking forward to leveraging my coding skills, task management, communication and leadership skills to new opportunities. DoD secret level security clearance.</p>
           </Cell>
           <Cell col={6}>
             <h2>Contact Information</h2>
